@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'endaq-docs'
-copyright = '2025, Mide Technology Corp.'
+copyright = '2025, Midé Technology Corp.'
 author = 'David R. Stokes'
 
 # -- General configuration ---------------------------------------------------
@@ -71,9 +71,11 @@ html_style = "https://info.endaq.com/hubfs/docs/css/endaq-docs-style.css"
 # -- Options for intersphinx extension ---------------------------------------
 
 # Example configuration for intersphinx: refer to the Python standard library.
+# TODO: The URLs will need updating. These were just a test.
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3', None),
+    'endaq': ('https://docs.endaq.com/en/latest/', None),
     # 'ebmlite': (),
-    'idelib': ('https://mide-technology-idelib.readthedocs-hosted.com/en/latest/', None),
+    'idelib': ('https://mide-technology-idelib.readthedocs-hosted.com/en/develop/', None),
     'endaq-device': ('https://mide-technology-endaq-device.readthedocs-hosted.com/en/latest/', None),
 }
