@@ -22,5 +22,11 @@ also supports legacy SlamStick™ devices (X, C, and S).
 
 ``ebmlite``
 -----------
+:ref:`ebmlite:index`
+
+:ref:`ebmlite <ebmlite:index>`
+
 :doc:`ebmlite:index`
+
+:doc:`ebmlite <ebmlite:index>`
 
