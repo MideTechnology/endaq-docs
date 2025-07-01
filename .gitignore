@@ -28,3 +28,5 @@ venv.bak/
 
 # Sphinx
 _build/
+
+*.egg-info/
