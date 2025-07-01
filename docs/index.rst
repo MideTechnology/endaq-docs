@@ -21,7 +21,7 @@ also supports legacy SlamStick™ devices (X, C, and S).
 
 ``ebmlite``
 -----------
-:ebmlite:ref:`ebmlite`
+`ebmlite`
 
 
 .. toctree::
