@@ -5,12 +5,12 @@ Midé provides and maintains several open-source Python libraries, both general-
 
 ``endaq``
 ---------
-The :doc:``endaq`` package is a comprehensive, user-centric Python API for working with and analyzing data recorded by `enDAQ™ devices <https://endaq.com/collections/endaq-shock-recorders-vibration-data-logger-sensors>`_.
+The :doc:`endaq:index` package is a comprehensive, user-centric Python API for working with and analyzing data recorded by `enDAQ™ devices <https://endaq.com/collections/endaq-shock-recorders-vibration-data-logger-sensors>`_.
 
 
 ``endaq-device``
 ----------------
-:doc:``endaq.device`` provides a means of representing, accessing, configuring and controlling
+:doc:`endaq.device <endaq-device:index>` provides a means of representing, accessing, configuring and controlling
 `enDAQ™ data recorders <https://endaq.com/collections/endaq-shock-recorders-vibration-data-logger-sensors>`_. It
 also supports legacy SlamStick™ devices (X, C, and S).
 
@@ -22,11 +22,6 @@ also supports legacy SlamStick™ devices (X, C, and S).
 
 ``ebmlite``
 -----------
-:ref:`ebmlite:index`
-
-:ref:`ebmlite <ebmlite:index>`
-
-:doc:`ebmlite:index`
-
-:doc:`ebmlite <ebmlite:index>`
+:doc:`ebmlite:index` is a lightweight, "pure Python" library for parsing and encoding EBML (Extensible
+Binary Markup Language) data. It is used extensively in enDAQ and Midé projects, including the other libraries listed here.
 
