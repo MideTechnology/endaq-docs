@@ -74,8 +74,16 @@ html_style = "https://info.endaq.com/hubfs/docs/css/endaq-docs-style.css"
 # TODO: The URLs will need updating. These were just a test.
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3', None),
-    'ebmlite': ('https://mide-technology-ebmlite.readthedocs-hosted.com/en/latest/', None),
+    'ebmlite': ('https://mide-technology-endaq-docs.readthedocs-hosted.com/projects/ebmlite/en/latest/', None),
     'endaq': ('https://docs.endaq.com/en/latest/', None),
     'endaq-device': ('https://mide-technology-endaq-device.readthedocs-hosted.com/en/latest/', None),
     'idelib': ('https://mide-technology-idelib.readthedocs-hosted.com/en/develop/', None),
 }
+
+# We recommend adding the following config value.
+# Sphinx defaults to automatically resolve *unresolved* labels using all your Intersphinx mappings.
+# This behavior has unintended side-effects, namely that documentations local references can
+# suddenly resolve to an external location.
+# See also:
+# https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html#confval-intersphinx_disabled_reftypes
+intersphinx_disabled_reftypes = ["*"]
