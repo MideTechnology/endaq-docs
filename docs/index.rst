@@ -19,10 +19,16 @@ also supports legacy SlamStick™ devices (X, C, and S).
 ``idelib``
 ----------
 :doc:`idelib <idelib:index>` is the lower-level Python API for accessing the contents of `enDAQ <https://endaq.com/>`_'s IDE recordings.
-It is used by the :doc:`endaq <endaq:index>` package.
+It is used by the :doc:`endaq <endaq:index>` package. The package also contains the command-line utilities ``ideexport`` and ``ideinfo``.
 
 
 ``ebmlite``
 -----------
 :doc:`ebmlite <ebmlite:index>` is a lightweight, "pure Python" library for parsing and encoding EBML (Extensible
 Binary Markup Language) data. It is used extensively in enDAQ and Midé projects, including the other libraries listed here.
+
+
+Resources
+=========
+
+Looking for enDAQ + Python webinars, articles, blog posts, etc.? You can find them in the `enDAQ™ Resource Center <https://endaq.com/pages/shock-vibration-resources-center>`_.
