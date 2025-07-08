@@ -75,7 +75,7 @@ html_style = "https://info.endaq.com/hubfs/docs/css/endaq-docs-style.css"
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3', None),
     'ebmlite': ('https://mide-technology-ebmlite.readthedocs-hosted.com/en/latest/', None),
-    'endaq': ('https://mide-technology-endaq-python.readthedocs-hosted.com/en/latest/', None),
+    'endaq': ('https://docs.endaq.com/projects/endaq/en/latest/', None),
     'endaq-device': ('https://mide-technology-endaq-device.readthedocs-hosted.com/en/latest/', None),
     'idelib': ('https://mide-technology-idelib.readthedocs-hosted.com/en/develop/', None),
 }
